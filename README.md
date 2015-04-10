@@ -1,4 +1,6 @@
 christinem.github.io
 ====================
 
-Personal Website
+Source code for personal website.
+
+Draft layouts stored in editing branches.
