@@ -23,28 +23,14 @@ nav ul
 nav ul li:hover
 {
   background-color : #9C9C9C !important;
-}
-
-nav ul li:hover a
-{
   color : white !important;
-}
-
-nav ul li a
-{
-  color: rgb(0,0,0);
-  display: inline-block;
-  line-height: 50px;
-  padding-left: 24px;
-  width: 100%;
-  text-decoration : none;
 }
 
 nav ul li
 {
   list-style-type: none;
   display: inline-block;
-  width: 46%;
+  width: 20%;
   height: 30px;
   padding-top: 10px;
   cursor: pointer;
@@ -54,4 +40,5 @@ nav ul li
   -o-transition: all 0.2s;
   transition: all 0.2s;
   text-align: center;
+  margin-left: 17%;
 }
