@@ -2,7 +2,6 @@ nav
 {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   font-size: 17px;
-  width: 97%;
   height: 70px;
   background-color: rgb(255,255,255);
   border: solid 1px rgb(222,222,222);
@@ -10,7 +9,6 @@ nav
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
   display: block;
   overflow: hidden;
-  margin: 8px 22px 8px 22px;
   padding-top: 30px;
 }
 
