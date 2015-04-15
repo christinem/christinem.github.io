@@ -64,3 +64,14 @@ p {
   border: solid 1px black;
   margin-bottom: 0;
 }
+
+#social-media {
+  text-align: center;
+}
+
+#github, #linkedin {
+  width: 70px;
+  height: 70px;
+}
+
+
