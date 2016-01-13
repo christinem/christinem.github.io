@@ -69,6 +69,10 @@ p {
   text-align: center;
 }
 
+#social-media > a {
+  text-decoration: none;
+}
+
 #github, #linkedin {
   width: 70px;
   height: 70px;
