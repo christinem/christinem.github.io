@@ -134,7 +134,7 @@ a {
 @media only screen and (max-width: 768px) {
 
   body {
-    width: 100%;
+    width: 97%;
   }
 
   p {
@@ -142,7 +142,7 @@ a {
   }
 
   nav {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   span {
@@ -167,6 +167,8 @@ a {
     transform: 300ms all ease;
     padding-top: 10px;
     height: 90px;
+    padding-left: 45px;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   }
 
   header > nav > ul {
@@ -198,4 +200,3 @@ a {
   }
 
 }
-
