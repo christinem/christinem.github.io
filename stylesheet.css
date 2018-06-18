@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  /*background-image: url("img/background-2.jpg");*/
-  width: 70%;
+  width: 80%;
   max-width: 1180px;
   margin: 0px auto;
   text-align: left;
@@ -16,11 +15,17 @@ span {
   font-size: 16px;
 }
 
+p {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
 nav
 {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
-  font-size: 17px;
-  height: 70px;
+  font-size: 15px;
+  height: 80px;
   background-color: #BDBDBD;
   border: solid 1px rgb(222,222,222);
   border-radius: 4px;
@@ -28,7 +33,6 @@ nav
   display: block;
   overflow: hidden;
   padding-top: 30px;
-  margin-bottom: 10px;
 }
 
 nav ul
@@ -46,7 +50,7 @@ nav ul li
 {
   list-style-type: none;
   display: inline-block;
-  width: 8%;
+  width: 5%;
   height: 20px;
   cursor: pointer;
   -webkit-transition : all 0.2s;
@@ -58,18 +62,50 @@ nav ul li
   margin-left: 9%;
 }
 
+nav a:hover {
+  color: white !important;
+}
+
+nav a:visited, #footer a:active {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#name {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
 #logo {
   display: none;
 } 
 
-p {
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
-  text-align: center;
-  font-size: 18px;
+#headshot {
+  height: 150px;
+  width: 150px;
+  margin-left: 150px;
+  border-radius: 50%;
+  margin-top: 25px;
+  float: left;
+}
+
+#personal {
+  padding: 10px;
+  background-color: #E1E1E1;
+  height: 200px;
 }
 
 .section {
   padding: 10px;
+  padding-bottom
 }
 
 #footer {
@@ -121,19 +157,7 @@ p {
   transform: scale(1.1);
 }
 
-nav a:hover {
-  color: white !important;
-}
-
-nav a:visited, #footer a:active {
-  text-decoration: none;
-  color: black;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
+/* Mobile */
 
 @media only screen and (max-width: 768px) {
 
@@ -170,7 +194,7 @@ nav a {
     flex: 1;
     transform: 300ms all ease;
     padding-top: 10px;
-    height: 90px;
+    height: 130px;
     font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   }
 
