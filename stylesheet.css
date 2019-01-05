@@ -105,7 +105,9 @@ nav a {
 
 .section {
   padding: 10px;
-  padding-bottom
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 18px;
 }
 
 #footer {
@@ -214,6 +216,16 @@ nav a {
 
   header nav > ul > li:last-of-type {
     border-bottom: none;    
+  }
+
+  #name {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+    float: right;
+    font-size: 3vw;
+  }
+
+  #headshot {
+    margin-left: 50px;
   }
    
   #logo {
