@@ -8,7 +8,8 @@ body {
   margin: 0px auto;
   text-align: left;
   background: white;
-  padding: 5px;
+  border: solid 1px #BDBDBD;
+  border-radius: 4px;
 }
 
 span {
@@ -21,60 +22,43 @@ p {
   font-size: 18px;
 }
 
-nav
-{
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
-  font-size: 15px;
-  height: 80px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: #BDBDBD;
-  border: solid 1px rgb(222,222,222);
+  margin-bottom: 10px;
+  border: solid 1px #BDBDBD;
   border-radius: 4px;
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  height: 60px;
+  padding-top : 10px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
   display: block;
-  overflow: hidden;
-  padding-top: 30px;
-}
-
-nav ul
-{
-  width  : 100%;
-  margin : 0 0 0 0;
-}
-
-nav ul li:hover
-{
-  color : white !important;
-}
-
-nav ul li
-{
-  list-style-type: none;
-  display: inline-block;
-  width: 5%;
-  height: 20px;
-  cursor: pointer;
-  -webkit-transition : all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+  color: black;
   text-align: center;
-  margin-left: 9%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+  font-size: 18px;
 }
 
-nav a:hover {
+nav li a:hover {
   color: white !important;
 }
 
-nav a:visited, #footer a:active {
+nav li a:visited, #footer a:active {
   text-decoration: none;
   color: black;
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-}
 
 #name {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
@@ -82,6 +66,16 @@ nav a {
   margin-top: 50px;
   margin-left: 30px;
   font-size: 25px;
+}
+
+#name_nav {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
+  font-size: 18px;
 }
 
 #logo {
@@ -104,10 +98,10 @@ nav a {
 }
 
 .section {
-  padding: 10px;
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   text-align: center;
   font-size: 18px;
+  padding: 10px 10px 10px 10px;
 }
 
 #footer {
@@ -121,10 +115,15 @@ nav a {
 }
 
 .headline {
-  border: solid 1px rgb(222,222,222);
-  border-radius: 4px;
-  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  border: solid 1px rgb(88,88,88);
+  /*border-radius: 4px;*/
+  /*box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);*/
   margin-bottom: 0;
+  background-color: rgb(220,220,220);
+}
+
+#publications_section {
+  padding: 10px 0px 10px 0px !important;
 }
 
 #social-media {
@@ -159,6 +158,22 @@ nav a {
   transform: scale(1.1);
 }
 
+.year {
+  border: solid 1px rgb(222,222,222);
+  border-radius: 4px;
+  /*box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);*/
+  margin-bottom: 15px;
+}
+
+.paper {
+  border: solid 1px rgb(222,222,222);
+  /*border-radius: 4px;*/
+  /*box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);*/
+  margin-bottom: 0;
+  padding: 0px 10px 0px 10px;
+}
+
+
 /* Mobile */
 
 @media only screen and (max-width: 768px) {
@@ -179,7 +194,54 @@ nav a {
     font-size: 14px;
   }
 
+  h3 {
+    font-size: 25px;
+    padding: 0px 30px 0px 0px;
+  }
+
   /* Mobile header styles */
+
+  nav ul
+  {
+    width  : 100%;
+    margin : 0 0 0 0;
+    padding-top: 0px !important;
+  }
+
+  nav ul li:hover
+  {
+    color : white !important;
+  }
+
+  nav ul li
+  {
+    list-style-type: none;
+    display: inline-block;
+    width: 5%;
+    height: 20px;
+    cursor: pointer;
+    -webkit-transition : all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    text-align: center;
+    margin-left: 9%;
+  }
+
+  nav a:hover {
+    color: lightgrey !important;
+  }
+
+  nav a:visited, #footer a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
 
   header {
     background-color: #BDBDBD;
@@ -196,12 +258,15 @@ nav a {
     flex: 1;
     transform: 300ms all ease;
     padding-top: 10px;
-    height: 130px;
+    padding-bottom: 10px;
+    height: 145px;
     font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   }
 
   header > nav > ul {
     -webkit-padding-start: 0px !important;
+    background-color: white;
+    height: 100%;
   }
        
   header nav > ul > li {
@@ -224,6 +289,10 @@ nav a {
     font-size: 3vw;
   }
 
+  #name_nav {
+    display: none;
+  }
+
   #headshot {
     margin-left: 50px;
   }
@@ -235,7 +304,6 @@ nav a {
   #navToggle {
     float: left;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
-
 }
