@@ -173,6 +173,10 @@ nav li a:visited, #footer a:active {
   padding: 0px 10px 0px 10px;
 }
 
+#year {
+  background-color: #ededed;
+}
+
 
 /* Mobile */
 
@@ -306,4 +310,5 @@ nav li a:visited, #footer a:active {
     margin-left: 10px;
     margin-top: 20px;
   }
+
 }
