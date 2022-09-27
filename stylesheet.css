@@ -83,12 +83,17 @@ nav li a:visited, #footer a:active {
 } 
 
 #headshot {
-  height: 150px;
-  width: 150px;
-  margin-left: 150px;
+  height: 70%;
+  width: 170px;
+  margin-left: 20px;
   border-radius: 50%;
-  margin-top: 25px;
+  margin-top: 20px;
   float: left;
+}
+
+#about_me_section {
+  margin-left: 200px;
+  margin-right: 20px;
 }
 
 #personal {
@@ -101,7 +106,7 @@ nav li a:visited, #footer a:active {
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   text-align: center;
   font-size: 18px;
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 30px 10px;
 }
 
 #footer {
@@ -234,7 +239,7 @@ nav li a:visited, #footer a:active {
   }
 
   nav a:hover {
-    color: lightgrey !important;
+    color: skyblue; !important;
   }
 
   nav a:visited, #footer a:active {
@@ -263,14 +268,14 @@ nav li a:visited, #footer a:active {
     transform: 300ms all ease;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 145px;
+    height: 100%;
     font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
   }
 
   header > nav > ul {
     -webkit-padding-start: 0px !important;
-    background-color: white;
-    height: 100%;
+    background-color: lightgrey;
+    height: 150px;
   }
        
   header nav > ul > li {
@@ -297,10 +302,6 @@ nav li a:visited, #footer a:active {
     display: none;
   }
 
-  #headshot {
-    margin-left: 50px;
-  }
-   
   #logo {
     display: inline-block;
   }
@@ -309,6 +310,19 @@ nav li a:visited, #footer a:active {
     float: left;
     margin-left: 10px;
     margin-top: 20px;
+  }
+
+  #headshot {
+    height: 80%;
+    width: 170px;
+    margin-left: 25px;
+    border-radius: 50%;
+    margin-top: 27px;
+    float: left;
+  }
+
+  .section {
+    padding: 10px 10px 10px 10px;
   }
 
 }
