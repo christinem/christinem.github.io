@@ -318,11 +318,18 @@ nav li a:visited, #footer a:active {
     margin-left: 25px;
     border-radius: 50%;
     margin-top: 27px;
+    padding-right: 10px;
     float: left;
   }
 
   .section {
     padding: 10px 10px 10px 10px;
   }
+
+  #about_me_section {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
 
 }
