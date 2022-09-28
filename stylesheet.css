@@ -47,7 +47,7 @@ nav li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","Lucida Grande", sans-serif;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 nav li a:hover {
@@ -275,7 +275,7 @@ nav li a:visited, #footer a:active {
   header > nav > ul {
     -webkit-padding-start: 0px !important;
     background-color: lightgrey;
-    height: 150px;
+    height: 170px;
   }
        
   header nav > ul > li {
